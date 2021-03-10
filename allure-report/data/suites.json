@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "PriventiveMaintenance",
+    "children" : [ {
+      "name" : "PriventiveMaintenance",
+      "children" : [ {
+        "name" : "com.cisco.tests.sp2k.PreventiveMaintenanceIT",
+        "children" : [ {
+          "name" : "Verify Sp2k Main Menu Pages List",
+          "uid" : "4f511e949b5dec58",
+          "parentUid" : "5a5ab283b1638a6e769e7a2aae56b7f0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1611576908246,
+            "stop" : 1611576908717,
+            "duration" : 471
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verify and clicking on the Preventive Maintenance Page Link",
+          "uid" : "2f9adb64ee7a8c2a",
+          "parentUid" : "5a5ab283b1638a6e769e7a2aae56b7f0",
+          "status" : "broken",
+          "time" : {
+            "start" : 1611576916405,
+            "stop" : 1611576921945,
+            "duration" : 5540
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5a5ab283b1638a6e769e7a2aae56b7f0"
+      } ],
+      "uid" : "0511a351aca6963d3fe086c7affd4743"
+    } ],
+    "uid" : "27e469d1a044da9f6fba28022b682a26"
+  } ]
+}

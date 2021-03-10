@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Assets" verbose="2">
+	<!-- <test name="Assets" preserve-order="true" parallel="classes" thread-count="1"> -->
+	<test name="Assets" preserve-order="true">
+		<classes>
+			<class
+				name="com.cisco.tests.assetsAndCoverage.assets.AllAssetsIT" />
+			<!--<class name="com.cisco.tests.assetsAndCoverage.assets.CampusAssetsIT"/> -->
+		</classes>
+	</test>
+	<test name="Contracts" preserve-order="true">
+		<classes>
+			<class
+				name="com.cisco.tests.assetsAndCoverage.assets.ContractsIT" />
+		</classes>
+	</test>
+</suite>

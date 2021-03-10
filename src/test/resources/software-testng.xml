@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Software" verbose="2" preserve-order="true">
+	<!-- <test name="Software" preserve-order="true"> -->
+	<test name="Software" parallel="classes" thread-count="3">
+		<classes>
+
+			<class name="com.cisco.tests.insights.software.SoftwarePageIT" />
+			<class name="com.cisco.tests.insights.software.SoftwareSystemPageIT" />
+			<class name="com.cisco.tests.insights.software.Software360PageIT" />
+		</classes>
+	</test>
+</suite>

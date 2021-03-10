@@ -1,0 +1,76 @@
+2021-01-25 18:12:39,913 [main] INFO com.cisco.base.DriverBase - Setting Up the Web Driver Object
+2021-01-25 18:12:40,742 [TestNG-test=PriventiveMaintenance-1] INFO com.cisco.config.DriverFactory - Local Operating System: WINDOWS 10
+2021-01-25 18:12:40,744 [TestNG-test=PriventiveMaintenance-1] INFO com.cisco.config.DriverFactory - Local Architecture: amd64
+2021-01-25 18:12:40,744 [TestNG-test=PriventiveMaintenance-1] INFO com.cisco.config.DriverFactory - Selected Browser: CHROME
+2021-01-25 18:12:49,247 [TestNG-test=PriventiveMaintenance-1] INFO com.cisco.config.DriverFactory - Successfully launched the browser
+2021-01-25 18:12:49,313 [TestNG-test=PriventiveMaintenance-1] INFO com.cisco.utils.AppUtils - Logging in via sso login page
+2021-01-25 18:13:22,997 [TestNG-test=PriventiveMaintenance-1] INFO com.cisco.listeners.TestListeners - PreventiveMaintenanceIT.checkPreventiveMaintenancePageLink()[pri:1, instance:com.cisco.tests.sp2k.PreventiveMaintenanceIT@cc6460c]--Passed
+2021-01-25 18:13:23,010 [TestNG-test=PriventiveMaintenance-1] INFO com.cisco.base.DriverBase - Clearing up the Cookies...
+2021-01-25 18:13:31,882 [TestNG-test=PriventiveMaintenance-1] INFO com.cisco.listeners.RetryListener - Retrying test clickPreventiveMaintenancePageLink with status FAILURE for the 1 time(s).
+2021-01-25 18:13:31,884 [TestNG-test=PriventiveMaintenance-1] INFO com.cisco.listeners.TestListeners - PreventiveMaintenanceIT.clickPreventiveMaintenancePageLink()[pri:2, instance:com.cisco.tests.sp2k.PreventiveMaintenanceIT@cc6460c]--Skipped
+org.openqa.selenium.NoSuchElementException: Element with locator not found : //font[normalize-space()='Preventive Maintenance']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HYD-LAP-00451', ip: '10.14.20.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: driver.version: unknown
+	at com.cisco.base.DriverUtils.getWebElement(DriverUtils.java:74)
+	at com.cisco.pages.sp2k.PreventiveMaintenancePage.clickPreventiveMaintenanceLink(PreventiveMaintenancePage.java:31)
+	at com.cisco.tests.sp2k.PreventiveMaintenanceIT.clickPreventiveMaintenancePageLink(PreventiveMaintenanceIT.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:238)
+	at com.cisco.listeners.HooksListener.run(HooksListener.java:20)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:252)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+	at org.testng.internal.InvokeMethodRunnable.call(InvokeMethodRunnable.java:73)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:33)
+	at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:314)
+	at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:280)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:605)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2021-01-25 18:13:31,897 [TestNG-test=PriventiveMaintenance-1] INFO com.cisco.base.DriverBase - Clearing up the Cookies...
+2021-01-25 18:13:39,533 [TestNG-test=PriventiveMaintenance-1] ERROR com.cisco.listeners.TestListeners - PreventiveMaintenanceIT.clickPreventiveMaintenancePageLink()[pri:2, instance:com.cisco.tests.sp2k.PreventiveMaintenanceIT@cc6460c]--Failed
+org.openqa.selenium.NoSuchElementException: Element with locator not found : //font[normalize-space()='Preventive Maintenance']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HYD-LAP-00451', ip: '10.14.20.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: driver.version: unknown
+	at com.cisco.base.DriverUtils.getWebElement(DriverUtils.java:74)
+	at com.cisco.pages.sp2k.PreventiveMaintenancePage.clickPreventiveMaintenanceLink(PreventiveMaintenancePage.java:31)
+	at com.cisco.tests.sp2k.PreventiveMaintenanceIT.clickPreventiveMaintenancePageLink(PreventiveMaintenanceIT.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:238)
+	at com.cisco.listeners.HooksListener.run(HooksListener.java:20)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:252)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+	at org.testng.internal.InvokeMethodRunnable.call(InvokeMethodRunnable.java:73)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:33)
+	at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:314)
+	at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:280)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:605)
+	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2021-01-25 18:13:39,546 [TestNG-test=PriventiveMaintenance-1] INFO com.cisco.base.DriverBase - Clearing up the Cookies...
+2021-01-25 18:13:39,610 [main] INFO com.cisco.base.DriverBase - Closing All Driver Objects

@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Controlpoint_UI_Suite" verbose="2">
+<test name="Controlpoint_UI">
+<packages>
+<package name="com.cisco.tests.controlPoint.*"/>
+</packages>
+</test>
+</suite>

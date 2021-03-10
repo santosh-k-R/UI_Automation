@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="PriventiveMaintenance" verbose="2">
+    <test name="PriventiveMaintenance" parallel="classes" thread-count="3">
+        <classes>
+            <class name="com.cisco.tests.sp2k.PreventiveMaintenanceIT"/>
+        </classes>
+    </test>
+</suite>

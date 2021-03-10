@@ -1,0 +1,214 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Application log</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Mon Jan 25 18:12:39 IST 2021<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>File:Line</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.cisco.base.DriverBase category">com.cisco.base.DriverBase</td>
+<td>DriverBase.java:33</td>
+<td title="Message">Setting Up the Web Driver Object</td>
+</tr>
+
+<tr>
+<td>829</td>
+<td title="TestNG-test=PriventiveMaintenance-1 thread">TestNG-test=PriventiveMaintenance-1</td>
+<td title="Level">INFO</td>
+<td title="com.cisco.config.DriverFactory category">com.cisco.config.DriverFactory</td>
+<td>DriverFactory.java:74</td>
+<td title="Message">Local Operating System: WINDOWS 10</td>
+</tr>
+
+<tr>
+<td>831</td>
+<td title="TestNG-test=PriventiveMaintenance-1 thread">TestNG-test=PriventiveMaintenance-1</td>
+<td title="Level">INFO</td>
+<td title="com.cisco.config.DriverFactory category">com.cisco.config.DriverFactory</td>
+<td>DriverFactory.java:75</td>
+<td title="Message">Local Architecture: amd64</td>
+</tr>
+
+<tr>
+<td>831</td>
+<td title="TestNG-test=PriventiveMaintenance-1 thread">TestNG-test=PriventiveMaintenance-1</td>
+<td title="Level">INFO</td>
+<td title="com.cisco.config.DriverFactory category">com.cisco.config.DriverFactory</td>
+<td>DriverFactory.java:76</td>
+<td title="Message">Selected Browser: CHROME</td>
+</tr>
+
+<tr>
+<td>9334</td>
+<td title="TestNG-test=PriventiveMaintenance-1 thread">TestNG-test=PriventiveMaintenance-1</td>
+<td title="Level">INFO</td>
+<td title="com.cisco.config.DriverFactory category">com.cisco.config.DriverFactory</td>
+<td>DriverFactory.java:115</td>
+<td title="Message">Successfully launched the browser</td>
+</tr>
+
+<tr>
+<td>9400</td>
+<td title="TestNG-test=PriventiveMaintenance-1 thread">TestNG-test=PriventiveMaintenance-1</td>
+<td title="Level">INFO</td>
+<td title="com.cisco.utils.AppUtils category">com.cisco.utils.AppUtils</td>
+<td>AppUtils.java:123</td>
+<td title="Message">Logging in via sso login page</td>
+</tr>
+
+<tr>
+<td>43084</td>
+<td title="TestNG-test=PriventiveMaintenance-1 thread">TestNG-test=PriventiveMaintenance-1</td>
+<td title="Level">INFO</td>
+<td title="com.cisco.listeners.TestListeners category">com.cisco.listeners.TestListeners</td>
+<td>TestListeners.java:22</td>
+<td title="Message">PreventiveMaintenanceIT.checkPreventiveMaintenancePageLink()[pri:1, instance:com.cisco.tests.sp2k.PreventiveMaintenanceIT@cc6460c]--Passed</td>
+</tr>
+
+<tr>
+<td>43097</td>
+<td title="TestNG-test=PriventiveMaintenance-1 thread">TestNG-test=PriventiveMaintenance-1</td>
+<td title="Level">INFO</td>
+<td title="com.cisco.base.DriverBase category">com.cisco.base.DriverBase</td>
+<td>DriverBase.java:48</td>
+<td title="Message">Clearing up the Cookies...</td>
+</tr>
+
+<tr>
+<td>51969</td>
+<td title="TestNG-test=PriventiveMaintenance-1 thread">TestNG-test=PriventiveMaintenance-1</td>
+<td title="Level">INFO</td>
+<td title="com.cisco.listeners.RetryListener category">com.cisco.listeners.RetryListener</td>
+<td>RetryListener.java:15</td>
+<td title="Message">Retrying test clickPreventiveMaintenancePageLink with status FAILURE for the 1 time(s).</td>
+</tr>
+
+<tr>
+<td>51971</td>
+<td title="TestNG-test=PriventiveMaintenance-1 thread">TestNG-test=PriventiveMaintenance-1</td>
+<td title="Level">INFO</td>
+<td title="com.cisco.listeners.TestListeners category">com.cisco.listeners.TestListeners</td>
+<td>TestListeners.java:36</td>
+<td title="Message">PreventiveMaintenanceIT.clickPreventiveMaintenancePageLink()[pri:2, instance:com.cisco.tests.sp2k.PreventiveMaintenanceIT@cc6460c]--Skipped</td>
+</tr>
+<tr><td bgcolor="#993300" style="color:White; font-size : xx-small;" colspan="6">org.openqa.selenium.NoSuchElementException: Element with locator not found : //font[normalize-space()='Preventive Maintenance']
+<br>&nbsp;&nbsp;&nbsp;&nbsp;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+<br>&nbsp;&nbsp;&nbsp;&nbsp;System info: host: 'HYD-LAP-00451', ip: '10.14.20.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Driver info: driver.version: unknown
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.cisco.base.DriverUtils.getWebElement(DriverUtils.java:74)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.cisco.pages.sp2k.PreventiveMaintenancePage.clickPreventiveMaintenanceLink(PreventiveMaintenancePage.java:31)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.cisco.tests.sp2k.PreventiveMaintenanceIT.clickPreventiveMaintenancePageLink(PreventiveMaintenanceIT.java:40)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.lang.reflect.Method.invoke(Method.java:498)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:238)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.cisco.listeners.HooksListener.run(HooksListener.java:20)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:252)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.InvokeMethodRunnable.call(InvokeMethodRunnable.java:73)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:33)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:314)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:280)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:605)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.lang.Thread.run(Thread.java:745)
+</td></tr>
+
+<tr>
+<td>51984</td>
+<td title="TestNG-test=PriventiveMaintenance-1 thread">TestNG-test=PriventiveMaintenance-1</td>
+<td title="Level">INFO</td>
+<td title="com.cisco.base.DriverBase category">com.cisco.base.DriverBase</td>
+<td>DriverBase.java:48</td>
+<td title="Message">Clearing up the Cookies...</td>
+</tr>
+
+<tr>
+<td>59620</td>
+<td title="TestNG-test=PriventiveMaintenance-1 thread">TestNG-test=PriventiveMaintenance-1</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.cisco.listeners.TestListeners category">com.cisco.listeners.TestListeners</td>
+<td>TestListeners.java:29</td>
+<td title="Message">PreventiveMaintenanceIT.clickPreventiveMaintenancePageLink()[pri:2, instance:com.cisco.tests.sp2k.PreventiveMaintenanceIT@cc6460c]--Failed</td>
+</tr>
+<tr><td bgcolor="#993300" style="color:White; font-size : xx-small;" colspan="6">org.openqa.selenium.NoSuchElementException: Element with locator not found : //font[normalize-space()='Preventive Maintenance']
+<br>&nbsp;&nbsp;&nbsp;&nbsp;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+<br>&nbsp;&nbsp;&nbsp;&nbsp;System info: host: 'HYD-LAP-00451', ip: '10.14.20.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+<br>&nbsp;&nbsp;&nbsp;&nbsp;Driver info: driver.version: unknown
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.cisco.base.DriverUtils.getWebElement(DriverUtils.java:74)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.cisco.pages.sp2k.PreventiveMaintenancePage.clickPreventiveMaintenanceLink(PreventiveMaintenancePage.java:31)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.cisco.tests.sp2k.PreventiveMaintenanceIT.clickPreventiveMaintenancePageLink(PreventiveMaintenanceIT.java:40)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.lang.reflect.Method.invoke(Method.java:498)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:238)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at com.cisco.listeners.HooksListener.run(HooksListener.java:20)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:252)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.InvokeMethodRunnable.call(InvokeMethodRunnable.java:73)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:33)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:314)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:280)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:605)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;	at java.lang.Thread.run(Thread.java:745)
+</td></tr>
+
+<tr>
+<td>59633</td>
+<td title="TestNG-test=PriventiveMaintenance-1 thread">TestNG-test=PriventiveMaintenance-1</td>
+<td title="Level">INFO</td>
+<td title="com.cisco.base.DriverBase category">com.cisco.base.DriverBase</td>
+<td>DriverBase.java:48</td>
+<td title="Message">Clearing up the Cookies...</td>
+</tr>
+
+<tr>
+<td>59697</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.cisco.base.DriverBase category">com.cisco.base.DriverBase</td>
+<td>DriverBase.java:59</td>
+<td title="Message">Closing All Driver Objects</td>
+</tr>

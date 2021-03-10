@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="RiskMitigation" verbose="2">
+    <test name="RiskMitigation" parallel="classes" thread-count="3">
+       <classes>
+           <!-- <class name="com.cisco.tests.insights.riskMitigation.RiskMitigation360PageIT"/>  
+           <class name="com.cisco.tests.insights.riskMitigation.CrashRiskPageIT"/> -->
+           <class name="com.cisco.tests.insights.riskMitigation.RiskMitigationPageIT"/>
+                     <!-- <class name="com.cisco.tests.sp2k.PreventiveMaintenanceIT"/>-->
+           
+       </classes>
+    </test>
+</suite>

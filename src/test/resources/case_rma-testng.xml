@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Case RMA Search" verbose="2">
+    <test name="Open Case/ Case 360">
+        <classes>
+            <class name="com.cisco.tests.cases.Case360PageIT"/>
+            <class name="com.cisco.tests.cases.OpenCaseIT"/>
+        </classes>
+    </test>
+
+    <test name="Global Search">
+        <classes>
+            <class name="com.cisco.tests.search.SearchIT"/>
+        </classes>
+    </test>
+
+    <test name="Cases Page" parallel="methods" thread-count="10">
+        <classes>
+            <class name="com.cisco.tests.cases.CasesPageIT"/>
+        </classes>
+    </test>
+</suite>

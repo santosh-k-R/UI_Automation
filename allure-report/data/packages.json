@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.cisco.tests.sp2k.PreventiveMaintenanceIT",
+    "children" : [ {
+      "name" : "checkPreventiveMaintenancePageLink",
+      "uid" : "4f511e949b5dec58",
+      "parentUid" : "01967f1cb12b23efe2d1cc5c4d1bbf5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611576908246,
+        "stop" : 1611576908717,
+        "duration" : 471
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "clickPreventiveMaintenancePageLink",
+      "uid" : "2f9adb64ee7a8c2a",
+      "parentUid" : "01967f1cb12b23efe2d1cc5c4d1bbf5f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611576916405,
+        "stop" : 1611576921945,
+        "duration" : 5540
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "com.cisco.tests.sp2k.PreventiveMaintenanceIT"
+  } ]
+}

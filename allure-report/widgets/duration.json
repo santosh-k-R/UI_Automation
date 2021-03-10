@@ -1,0 +1,21 @@
+[ {
+  "uid" : "2f9adb64ee7a8c2a",
+  "name" : "verify and clicking on the Preventive Maintenance Page Link",
+  "time" : {
+    "start" : 1611576916405,
+    "stop" : 1611576921945,
+    "duration" : 5540
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4f511e949b5dec58",
+  "name" : "Verify Sp2k Main Menu Pages List",
+  "time" : {
+    "start" : 1611576908246,
+    "stop" : 1611576908717,
+    "duration" : 471
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

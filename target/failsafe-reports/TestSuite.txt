@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 64.16 s <<< FAILURE! - in TestSuite
+com.cisco.tests.sp2k.PreventiveMaintenanceIT.clickPreventiveMaintenancePageLink  Time elapsed: 7.567 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Element with locator not found : //font[normalize-space()='Preventive Maintenance']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HYD-LAP-00451', ip: '10.14.20.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: driver.version: unknown
+	at com.cisco.tests.sp2k.PreventiveMaintenanceIT.clickPreventiveMaintenancePageLink(PreventiveMaintenanceIT.java:40)
+

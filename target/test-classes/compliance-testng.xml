@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="compliance" verbose="2" >
+
+    <test name="1_Rcc_Rule_violations" parallel="methods" thread-count="30">
+        <classes>
+<!--            <class name="com.cisco.tests.insights.compliance.ViolationsPageIT"/>-->
+            <class name="com.cisco.tests.insights.compliance.ViolationWithSystemPageIT" />
+        </classes>
+    </test>
+
+<!--    <test name="2_Rcc_On_Demand" preserve-order="true">-->
+<!--        <classes>-->
+<!--            <class name="com.cisco.tests.insights.compliance.UserInitiativePageIT" />-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+<!--    <test name="3_Rcc_Admin" preserve-order="true">-->
+<!--        <classes>-->
+<!--            <class name="com.cisco.tests.insights.compliance.AdminPageIT" />-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>
+
+

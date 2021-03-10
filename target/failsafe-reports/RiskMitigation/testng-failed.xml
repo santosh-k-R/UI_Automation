@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [RiskMitigation]" parallel="classes">
+  <test thread-count="1" verbose="0" name="RiskMitigation(failed)" parallel="classes">
+    <classes>
+      <class name="com.cisco.tests.insights.riskMitigation.RiskMitigationPageIT">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="verifyLoginToSP2K"/>
+          <include name="clickLogout"/>
+          <include name="clearCookies"/>
+          <include name="clickPreventiveMaintenancePageLink"/>
+          <include name="closeDriverObjects"/>
+          <include name="closeDriverInstance"/>
+          <include name="instantiateDriverObject"/>
+        </methods>
+      </class> <!-- com.cisco.tests.insights.riskMitigation.RiskMitigationPageIT -->
+    </classes>
+  </test> <!-- RiskMitigation(failed) -->
+</suite> <!-- Failed suite [RiskMitigation] -->

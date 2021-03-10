@@ -1,0 +1,314 @@
+{
+  "uid" : "4f511e949b5dec58",
+  "name" : "Verify Sp2k Main Menu Pages List",
+  "fullName" : "com.cisco.tests.sp2k.PreventiveMaintenanceIT.checkPreventiveMaintenancePageLink",
+  "historyId" : "cd822c1dab9dbc4135df6ee3199e7d6f",
+  "time" : {
+    "start" : 1611576908246,
+    "stop" : 1611576908717,
+    "duration" : 471
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "launchBrowser",
+    "time" : {
+      "start" : 1611576908027,
+      "stop" : 1611576908027,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "Verify Login to SP2K",
+    "time" : {
+      "start" : 1611576869441,
+      "stop" : 1611576908007,
+      "duration" : 38566
+    },
+    "description" : "Verify Login to SP2K",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login to application",
+      "time" : {
+        "start" : 1611576869706,
+        "stop" : 1611576907967,
+        "duration" : 38261
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Close Welcome Page if Present",
+        "time" : {
+          "start" : 1611576907684,
+          "stop" : 1611576907781,
+          "duration" : 97
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check Element is Present in the Page",
+          "time" : {
+            "start" : 1611576907684,
+            "stop" : 1611576907781,
+            "duration" : 97
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "identifier",
+            "value" : "*[data-auto-id='welcome-page-close-icon']"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 1
+      }, {
+        "name" : "Close info popups",
+        "time" : {
+          "start" : 1611576907781,
+          "stop" : 1611576907877,
+          "duration" : 96
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check Element is Present in the Page",
+          "time" : {
+            "start" : 1611576907781,
+            "stop" : 1611576907877,
+            "duration" : 96
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "identifier",
+            "value" : "//div[contains(@class,'popup--')]"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 1
+      }, {
+        "name" : "Close Privacy Consent Dialog",
+        "time" : {
+          "start" : 1611576907878,
+          "stop" : 1611576907967,
+          "duration" : 89
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check Element is Present in the Page",
+          "time" : {
+            "start" : 1611576907878,
+            "stop" : 1611576907967,
+            "duration" : 89
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "identifier",
+            "value" : "div[class='privacy_prompt explicit_consent']>div[class='close_btn_thick']"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 1
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "track",
+        "value" : ""
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 6
+    }, {
+      "name" : "Verify home Page",
+      "time" : {
+        "start" : 1611576907967,
+        "stop" : 1611576908003,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 8
+  }, {
+    "name" : "instantiateDriverObject",
+    "time" : {
+      "start" : 1611576869390,
+      "stop" : 1611576869408,
+      "duration" : 18
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "verify Main Menu Pages",
+      "time" : {
+        "start" : 1611576908252,
+        "stop" : 1611576908539,
+        "duration" : 287
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "verify Main Menu Pages",
+      "time" : {
+        "start" : 1611576908539,
+        "stop" : 1611576908712,
+        "duration" : 173
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "clearCookies",
+    "time" : {
+      "start" : 1611576908728,
+      "stop" : 1611576908768,
+      "duration" : 40
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "closeDriverObjects",
+    "time" : {
+      "start" : 1611576922011,
+      "stop" : 1611576922798,
+      "duration" : 787
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.cisco.tests.sp2k.PreventiveMaintenanceIT"
+  }, {
+    "name" : "testClass",
+    "value" : "com.cisco.tests.sp2k.PreventiveMaintenanceIT"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkPreventiveMaintenancePageLink"
+  }, {
+    "name" : "parentSuite",
+    "value" : "PriventiveMaintenance"
+  }, {
+    "name" : "suite",
+    "value" : "PriventiveMaintenance"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.cisco.tests.sp2k.PreventiveMaintenanceIT"
+  }, {
+    "name" : "host",
+    "value" : "HYD-LAP-00451"
+  }, {
+    "name" : "thread",
+    "value" : "8196@HYD-LAP-00451.TestNG-test=PriventiveMaintenance-1(13)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4f511e949b5dec58.json",
+  "parameterValues" : [ ]
+}

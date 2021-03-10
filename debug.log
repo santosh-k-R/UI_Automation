@@ -1,0 +1,177 @@
+[1005/165543.230:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1005/165543.280:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1007/192726.284:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1007/194829.664:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1007/195218.231:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1007/202249.091:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1007/203511.265:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1007/204310.882:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1007/224817.666:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1007/231323.246:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1007/232837.319:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1008/004843.589:ERROR:file_io_win.cc(162)] CreateFile C:\Users\parkanna\AppData\Local\Temp\scoped_dir10468_2050488679\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[1008/004843.591:ERROR:file_io_win.cc(171)] CreateFile C:\Users\parkanna\AppData\Local\Temp\scoped_dir10468_2050488679\Crashpad\reports\fac3284d-a5e7-474c-b438-13b9a153056e.dmp: The system cannot find the path specified. (0x3)
+[1008/004843.591:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[1008/014522.828:ERROR:file_io_win.cc(162)] CreateFile C:\Users\parkanna\AppData\Local\Temp\scoped_dir2072_1452654831\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[1008/014522.831:ERROR:file_io_win.cc(171)] CreateFile C:\Users\parkanna\AppData\Local\Temp\scoped_dir2072_1452654831\Crashpad\reports\82e4bfa6-4204-43b7-b177-65c4741ef69b.dmp: The system cannot find the path specified. (0x3)
+[1008/014522.831:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[1008/023914.166:ERROR:file_io_win.cc(162)] CreateFile C:\Users\parkanna\AppData\Local\Temp\scoped_dir9512_189493635\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[1008/023914.172:ERROR:file_io_win.cc(171)] CreateFile C:\Users\parkanna\AppData\Local\Temp\scoped_dir9512_189493635\Crashpad\reports\505ae00e-5df5-4a4b-b067-8d40f2e33e89.dmp: The system cannot find the path specified. (0x3)
+[1008/023914.172:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[1008/055134.106:ERROR:file_io_win.cc(162)] CreateFile C:\Users\parkanna\AppData\Local\Temp\scoped_dir12988_2011627849\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[1008/055134.109:ERROR:file_io_win.cc(171)] CreateFile C:\Users\parkanna\AppData\Local\Temp\scoped_dir12988_2011627849\Crashpad\reports\fec3e0c1-d76b-42af-9ecd-5aba0d61fc4f.dmp: The system cannot find the path specified. (0x3)
+[1008/055134.109:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[1008/081728.620:ERROR:file_io_win.cc(162)] CreateFile C:\Users\parkanna\AppData\Local\Temp\scoped_dir25712_843356596\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[1008/081728.625:ERROR:file_io_win.cc(171)] CreateFile C:\Users\parkanna\AppData\Local\Temp\scoped_dir25712_843356596\Crashpad\reports\9a1a4af4-6ced-48e3-8313-3f1e76bd1d5d.dmp: The system cannot find the path specified. (0x3)
+[1008/081728.625:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[1008/121346.537:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1008/123501.558:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1008/123713.339:ERROR:file_io_win.cc(162)] CreateFile C:\Users\parkanna\AppData\Local\Temp\scoped_dir22692_783013070\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[1008/123713.343:ERROR:file_io_win.cc(171)] CreateFile C:\Users\parkanna\AppData\Local\Temp\scoped_dir22692_783013070\Crashpad\reports\dc012c0a-3495-4b3c-9808-4d9f030f70bf.dmp: The system cannot find the path specified. (0x3)
+[1008/123713.343:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[1009/002539.142:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1009/120408.269:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1009/122027.910:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1009/122825.467:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1009/123935.966:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1012/202428.214:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1012/210055.903:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1012/210627.267:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1012/223051.743:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1012/223734.566:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1012/225532.219:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1012/230442.886:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1012/231328.282:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1013/050718.207:ERROR:file_io_win.cc(162)] CreateFile C:\Users\parkanna\AppData\Local\Temp\scoped_dir18924_818688615\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[1013/050718.211:ERROR:file_io_win.cc(171)] CreateFile C:\Users\parkanna\AppData\Local\Temp\scoped_dir18924_818688615\Crashpad\reports\bfec4218-50a0-426d-bc57-92ea7adb6cb0.dmp: The system cannot find the path specified. (0x3)
+[1013/050718.211:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[1013/153748.747:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1013/163533.763:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1013/163533.765:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1013/174422.100:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1013/174422.128:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1013/175223.549:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1013/175223.553:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1014/161022.306:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1014/161022.309:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1015/155053.423:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1015/155053.430:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1015/164357.406:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1015/164357.413:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1015/171502.196:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1015/171502.199:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1015/172155.553:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1015/172155.556:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1015/172631.551:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1015/172631.555:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1015/194220.992:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1015/194221.001:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1015/200201.584:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1015/200201.588:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1015/200810.165:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1015/200810.170:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1015/201539.184:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1015/201539.188:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1015/203238.299:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1015/231236.249:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1015/231236.257:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1015/231936.651:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1015/231936.652:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1016/000857.561:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1016/000857.563:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1016/005236.482:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1016/005236.486:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1016/150135.995:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1016/150136.008:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1016/151642.975:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1016/151642.977:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1016/153549.351:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1016/153549.355:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1016/155828.689:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1016/155828.693:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1016/172428.561:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1016/172428.565:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1016/174517.469:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1016/174517.473:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1016/224818.536:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1016/224818.545:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1016/224818.565:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1016/224818.567:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1016/224818.656:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1016/224818.660:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1019/114617.539:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1019/114617.545:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1019/114618.168:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1019/114618.172:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1019/114618.250:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1019/114618.253:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1019/190334.880:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1019/190334.889:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1019/232140.568:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1019/232140.570:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1019/232622.953:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1019/232622.955:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1019/233837.916:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1019/233837.919:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1019/234918.810:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1019/234918.814:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1019/235441.658:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1019/235441.661:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1020/001312.500:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1020/001312.503:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1020/002744.763:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1020/002744.766:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1020/233316.041:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1020/233316.049:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1021/120156.308:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1021/120156.315:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1021/130745.958:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1021/130745.960:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1021/132757.896:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1021/132757.898:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1021/133751.974:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1021/133751.978:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1021/134342.289:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1021/134342.292:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1021/135739.470:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1021/135739.478:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1021/143304.447:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1021/143304.453:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1021/193724.280:ERROR:file_io_win.cc(162)] CreateFile C:\Users\parkanna\AppData\Local\Temp\scoped_dir20732_142662841\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[1021/193724.283:ERROR:file_io_win.cc(171)] CreateFile C:\Users\parkanna\AppData\Local\Temp\scoped_dir20732_142662841\Crashpad\reports\d1cf9088-9e8c-4a06-828f-ad47a46c76cc.dmp: The system cannot find the path specified. (0x3)
+[1021/193724.283:ERROR:crash_report_exception_handler.cc(99)] PrepareNewCrashReport failed
+[1021/211030.147:ERROR:file_io_win.cc(162)] CreateFile C:\Users\parkanna\AppData\Local\Temp\scoped_dir1172_1277749135\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[1021/211030.149:ERROR:file_io_win.cc(171)] CreateFile C:\Users\parkanna\AppData\Local\Temp\scoped_dir1172_1277749135\Crashpad\reports\dc019f19-01d8-4506-8b73-fb852423d12c.dmp: The system cannot find the path specified. (0x3)
+[1021/211030.150:ERROR:crash_report_exception_handler.cc(99)] PrepareNewCrashReport failed
+[1022/143507.366:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1022/143507.373:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1022/161619.729:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1022/161619.737:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1022/162319.571:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1022/162319.574:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1022/162416.303:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1022/162416.305:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1022/165421.823:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1022/165421.827:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1022/233659.367:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1022/233659.376:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1022/234602.848:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1023/003804.693:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1104/171555.221:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1104/171555.224:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1120/181349.414:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1124/131925.036:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1124/131925.044:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1124/134002.526:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1124/134002.528:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1124/155214.577:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1124/155214.586:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1127/133705.276:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1127/133705.278:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1127/135609.651:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0121/182453.755:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0121/182453.761:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[0121/193435.870:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0121/193435.871:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[0121/212003.024:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0121/212003.024:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [PriventiveMaintenance]" parallel="classes">
+  <test thread-count="1" verbose="0" name="PriventiveMaintenance(failed)" parallel="classes">
+    <classes>
+      <class name="com.cisco.tests.sp2k.PreventiveMaintenanceIT">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="clearCookies"/>
+          <include name="closeDriverObjects"/>
+          <include name="closeDriverInstance"/>
+          <include name="instantiateDriverObject"/>
+          <include name="verifyLoginToSP2K"/>
+          <include name="clickPreventiveMaintenancePageLink"/>
+        </methods>
+      </class> <!-- com.cisco.tests.sp2k.PreventiveMaintenanceIT -->
+    </classes>
+  </test> <!-- PriventiveMaintenance(failed) -->
+</suite> <!-- Failed suite [PriventiveMaintenance] -->

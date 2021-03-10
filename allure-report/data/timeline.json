@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "HYD-LAP-00451",
+    "children" : [ {
+      "name" : "8196@HYD-LAP-00451.TestNG-test=PriventiveMaintenance-1(13)",
+      "children" : [ {
+        "name" : "verify and clicking on the Preventive Maintenance Page Link",
+        "uid" : "489e6a907652660b",
+        "parentUid" : "ad0fe9951812fd2d7fc70cab6f23c006",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1611576908773,
+          "stop" : 1611576916365,
+          "duration" : 7592
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify Sp2k Main Menu Pages List",
+        "uid" : "4f511e949b5dec58",
+        "parentUid" : "ad0fe9951812fd2d7fc70cab6f23c006",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611576908246,
+          "stop" : 1611576908717,
+          "duration" : 471
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verify and clicking on the Preventive Maintenance Page Link",
+        "uid" : "2f9adb64ee7a8c2a",
+        "parentUid" : "ad0fe9951812fd2d7fc70cab6f23c006",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611576916405,
+          "stop" : 1611576921945,
+          "duration" : 5540
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ad0fe9951812fd2d7fc70cab6f23c006"
+    } ],
+    "uid" : "eea8d832e4e5d21d92c6b75903e7336c"
+  } ]
+}

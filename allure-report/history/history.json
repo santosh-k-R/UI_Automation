@@ -1,0 +1,41 @@
+{
+  "76b5bef4d01d0a079ad02f1e3d64551e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2f9adb64ee7a8c2a",
+      "status" : "broken",
+      "statusDetails" : "Element with locator not found : //font[normalize-space()='Preventive Maintenance']\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'HYD-LAP-00451', ip: '10.14.20.159', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'\nDriver info: driver.version: unknown",
+      "time" : {
+        "start" : 1611576916405,
+        "stop" : 1611576921945,
+        "duration" : 5540
+      }
+    } ]
+  },
+  "cd822c1dab9dbc4135df6ee3199e7d6f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4f511e949b5dec58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611576908246,
+        "stop" : 1611576908717,
+        "duration" : 471
+      }
+    } ]
+  }
+}
